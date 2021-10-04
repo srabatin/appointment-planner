@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 
 export const ContactsPage = () => {
   /*
   Define state variables for 
   contact info and duplicate check
   */
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -12,6 +13,7 @@ export const ContactsPage = () => {
     Add contact info and clear data
     if the contact name is not a duplicate
     */
+    
   };
 
   /*
